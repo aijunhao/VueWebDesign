@@ -12,7 +12,7 @@ module.exports = {
     // 运行项目后自动打开浏览器
     open: true,
     // 服务器地址
-    host: "0.0.0.0",
+    host: "127.0.0.1",
     // 端口号
     port: 8000,
     https: false,
@@ -20,8 +20,8 @@ module.exports = {
     hotOnly: false
     // 跨域请求
     // proxy: {
-    //   '/': {
-    //     target: 'http://127.0.0.1:5000',
+    //   "http://127.0.0.1:3000/": {
+    //     target: "http://127.0.0.1:3000/",
     //     ws: false,
     //     changeOrigin: true
     //   }
